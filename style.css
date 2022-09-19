@@ -78,3 +78,24 @@ a:hover {
     transform: scale(1.1);
     transition: all 250ms;
 }
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: calc(880px-60px);
+    display: flex;
+    align-items: center;
+}
+.right{
+    width: 50%;
+    display: flex;
+}
+.hero-image{
+    width: 100%;
+    height: 100%;
+}
